@@ -1,5 +1,6 @@
 import * as React from "react";
 import Head from "next/head";
+import Login from "../components/auth/Login";
 
 const Home = () => {
    
@@ -10,10 +11,8 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex screen  center" >
-            <h2>Stop all billing </h2>
-            <p>Stop all billing and traffic serving.</p>
-      
+      <main className="flex screen  center">
+        <Login />
       </main>
     </div>
   );
