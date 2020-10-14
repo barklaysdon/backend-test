@@ -1,17 +1,22 @@
+import * as React from "react";
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
 
-export default function Home() {
+const Home = () => {
+   
   return (
-    <div className={styles.container}>
+    <div className="w-100 h-100">
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <p>okay</p>
+      <main className="flex screen  center" >
+            <h2>Stop all billing </h2>
+            <p>Stop all billing and traffic serving.</p>
+      
       </main>
     </div>
   );
-}
+};
+
+export default Home;

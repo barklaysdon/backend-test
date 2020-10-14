@@ -1,3 +1,4 @@
+import "../styles/global.less";
 import "../styles/antd.less";
 
 function MyApp({ Component, pageProps }) {
